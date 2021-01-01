@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image_one_signin"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="আল-কারীম \nব্লাড ফাউন্ডেশন"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="26sp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/emailET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_edit_text_bg"
+            android:hint="Enter email"
+            android:padding="16dp"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/passwordET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:padding="16dp"
+            android:background="@drawable/login_edit_text_bg"
+            android:hint="Enter password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:onClick="login"
+            android:background="@drawable/login_edit_text_bg"
+            android:text="Login" />
+
+    </LinearLayout>
+
+</RelativeLayout>

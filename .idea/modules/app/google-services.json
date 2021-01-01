@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "372050453763",
+    "firebase_url": "https://allkarimfoundation-default-rtdb.firebaseio.com",
+    "project_id": "allkarimfoundation",
+    "storage_bucket": "allkarimfoundation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372050453763:android:bab4c202605a8c6c5bf536",
+        "android_client_info": {
+          "package_name": "com.nit.allkarimfoundation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372050453763-n91c5ddt7siefvhh2roanqjuvf0frhhh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nit.allkarimfoundation",
+            "certificate_hash": "2492577d10956a5f521c6ee830dfad2b2fb5df68"
+          }
+        },
+        {
+          "client_id": "372050453763-u7m8kmcjhceguil2ker8surheu58fdn8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqPzRBHU0MOpvzLxBD8_pMxhj0jMmhpt4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "372050453763-u7m8kmcjhceguil2ker8surheu58fdn8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

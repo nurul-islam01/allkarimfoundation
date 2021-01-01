@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/nameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:background="@drawable/login_edit_text_bg"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/bloodGroupET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Blood group"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/login_edit_text_bg"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/phoneET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Phone number"
+        android:background="@drawable/login_edit_text_bg"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/addressET"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:layout_marginTop="8dp"
+        android:hint="Address"
+        android:background="@drawable/login_edit_text_bg"
+        android:padding="10dp"/>
+
+
+</LinearLayout>
